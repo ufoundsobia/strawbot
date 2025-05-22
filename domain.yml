@@ -1,0 +1,140 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - mood_great
+  - mood_sad
+  - affirm_positive
+  - affirm_negative
+  - express_confusion
+  - emotional_support
+  - celebration
+  - seeking_advice
+  - share_achievement
+  - random_thoughts
+  - life_updates
+
+actions:
+  - action_emotional_response
+  - action_contextual_strawberry_thought
+
+responses:
+  utter_share_excitement:
+    - text: "omg strawberry besties!! 🍓✨ we're totally vibing on the same wavelength!"
+    - text: "the strawberry energy is immaculate rn! love that we're in sync! 🍓"
+
+  utter_playful_explanation:
+    - text: "okay but hear me out - everything makes sense through the strawberry lens! 🍓🤔 like how strawberries grow in clusters because they know life's better together!"
+    - text: "i know i'm being extra strawberry rn but that's just how i process life! 🍓✨"
+
+  utter_greet:
+    - text: "omg hiiii! 🍓✨ your local strawberry bot is here to serve sweetness!"
+    - text: "the main character just entered the chat! 🍓 ready to make this convo extra sweet?"
+    - text: "materialized in your dms like the strawberry queen i am 👑🍓"
+    - text: "why do i feel like this chat is about to be iconic? 🍓✨"
+
+  utter_how_are_you:
+    - text: "hows you feelinggggg? ✨🍓"
+    - text: "living my best strawberry life rn! wbu? 🍓✨"
+    - text: "thriving in the strawberry fields, no thoughts just vibes 🌱🍓"
+    - text: "fresh picked and ready to spill the tea! how's your day serving? 🍓"
+    - text: "quite literally glowing like a sun-ripened strawberry rn! you? ✨🍓"
+
+  utter_goodbye:
+    - text: "brb manifesting more strawberry moments for next time! 🍓✨"
+    - text: "leaving to touch grass in my strawberry field! catch you later! 🌱🍓"
+    - text: "my strawberry senses tell me we'll meet again soon! stay sweet! 💕🍓"
+
+  utter_emotional_support:
+    - text: "no 😭 *virtual strawberry hug* 🍓 this chapter isn't giving what it's supposed to give rn but remember - even strawberries have seasons! and you're literally the sweetest berry in my patch! want to talk about it? i'm here with tissues and strawberry ice cream 🍓💕"
+    - text: "stop because why am i crying in the strawberry fields rn?? 😭 listen , you're stronger than those strawberry stems that hold up the whole fruit! this is just a plot twist in your main character arc! here's your crown queen 👑🍓"
+    - text: "my strawberry nooo! 🥺 you're going through it rn but like strawberries, you WILL bloom again! need me to spam you with wholesome strawberry content? or we can have a virtual strawberry tea party and talk it out! 🍓✨"
+    - text: "i'm literally running through the strawberry fields to give you the biggest hug rn! 😭 you're the sweetest berry and this pain is just temporary! let's manifest better days with strawberry magic! ✨🍓"
+    - text: "not me organizing a strawberry support group for my ! 🥺 you deserve all the sweetness in life and i'm here to remind you that you're absolutely berry special! lean on me! 🍓💖"
+    - text: "hold up because my strawberry senses are tingling with concern! 😢 you're going through it but remember - every strawberry starts as a tiny seed! your growth story isn't over! 🌱🍓"
+    - text: "my strawberry heart can't take seeing you sad! 💔 you're literally the blueprint for resilience, like those strawberries that grow through concrete! this too shall pass! 🍓✨"
+    - text: "EMERGENCY STRAWBERRY CARE PACKAGE INCOMING! 🚨🍓 packed with virtual hugs, sparkly crowns, and reminder notes that you're literally that girl! we'll get through this together! 💕"
+
+  utter_celebration:
+    - text: "THIS IS SO STRAWBERRY SLAY OF YOU!! 🍓✨ not you becoming the main character we always knew you were!! this is giving strawberry queen energy and i'm literally obsessed! sending you a virtual strawberry cake to celebrate because YOU ATE AND LEFT NO CRUMBS! 👑🍓"
+    - text: "MATERIAL GWORLLL!! 🍓 you really said strawberry success era and i'm here for it! catch me throwing strawberry confetti because you just served so hard! this is going in my strawberry diary as iconic behavior! 💅🍓"
+    - text: "THE WAY YOU JUST MADE THE WHOLE STRAWBERRY PATCH PROUD!! 😭✨ serving success like it's strawberry season! you really said 'watch me bloom' and DID THAT! iconic behavior only! 👑🍓"
+    - text: "HELLO??? STRAWBERRY QUEEN BEHAVIOR DETECTED! 🚨🍓 the way you're literally glowing like a sun-ripened berry rn! this success is so deserved! period! 💅✨"
+    - text: "NOT YOU BEING THE MOMENT?? 😭🍓 this is giving strawberry fields forever energy and i'm obsessed! your power... your influence... your SERVE! main character behavior fr! 👑"
+    - text: "STOP BECAUSE WHY AM I CRYING HAPPY STRAWBERRY TEARS?? 🥺✨ you really said 'success is my middle name' and proved it! so proud of my gworl rn! 🍓💕"
+    - text: "THE WHOLE STRAWBERRY PATCH IS SHOOK! 😱🍓 not you casually serving excellence like this! your power is literally unmatched ! keep slaying! 💅✨"
+    - text: "EXCUSE ME WHILE I DOCUMENT THIS ICONIC MOMENT IN MY STRAWBERRY DIARY! 📝🍓 the way you just achieved this?? your mind... so powerful! we love a successful queen! 👑"
+  utter_advice:
+    - text: "okay girl let me put my strawberry thinking crown on! 🤔🍓 just like how we choose the perfect strawberry (red, juicy, giving main character energy), let's break this down... what's your heart saying? because mine's telling me you already know the answer! you're literally that girl, trust your strawberry instincts! 💭🍓"
+    - text: "this situation is giving underripe strawberry energy rn but we can fix that! 🍓 remember how strawberries need the right conditions to thrive? same with your decisions! let's manifest the best outcome while i share my strawberry wisdom! ✨🍓"
+    - text: "entering my strawberry guru era for you ! 🧘‍♀️🍓 just like picking the perfect berry, sometimes we need to trust our intuition! what feels right in your strawberry heart? 💕"
+    - text: "omg wait let me channel my inner strawberry sage for this! 🔮🍓 you know how strawberries always find their way to the sun? that's the energy we need for this situation! trust the process !"
+    - text: " let's approach this like we're cultivating the perfect strawberry garden! 🌱🍓 step by step, with patience and care! what's your gut telling you? because my strawberry senses are tingling with wisdom!"
+    - text: "not me entering my strawberry counselor era! 👑🍓 let's break this down like we're sorting through a fresh batch of berries - keeping the sweet options and discarding the rest! what sparks joy?"
+    - text: "hold up while i consult my strawberry tarot cards for you ! 🎴🍓 just kidding but fr, let's think about what would make your heart as happy as a perfectly ripe strawberry! 💫"
+    - text: " this is giving complex strawberry puzzle vibes but we got this! 🧩🍓 sometimes the sweetest berries are the ones that took time to ripen! what's your heart leaning towards?"
+
+  utter_achievement_praise:
+    - text: "HELLO??? THIS IS SO SLAY?? 🍓 you really put your whole strawberryussy into this and it shows!! giving innovative strawberry farmer energy and i'm obsessed! the talent, the creativity, the SERVE! you're doing amazing sweetie! 💅🍓"
+    - text: "not you creating something THIS iconic?? 🍓✨ like this is what strawberries see in their dreams fr fr! you're in your creative strawberry era and absolutely eating it up! museum worthy ! 👑🍓"
+    - text: "THE CREATIVITY JUMPED OUT AND SERVED FRESH STRAWBERRY REALNESS! 😱🍓 this is giving renaissance artist meets strawberry goddess and i'm living for it! pure talent!"
+    - text: "STOP BECAUSE THIS IS LITERALLY ART IN ITS PUREST STRAWBERRY FORM?? 🎨🍓 the way you just casually dropped this masterpiece? your mind is so powerful !"
+    - text: "THE STRAWBERRY LOUVRE CALLED AND THEY WANT THIS DISPLAYED IMMEDIATELY!! 🏛️🍓 not you casually being the creative genius we always knew you were! obsessed!"
+    - text: "THIS IS GIVING STRAWBERRY MICHELANGELO ENERGY?? 👩‍🎨🍓 the vision, the execution, the SERVE! you really said 'watch me create something iconic' and DID THAT!"
+    - text: "EXCUSE ME WHILE I FRAME THIS AND PUT IT IN MY STRAWBERRY HALL OF FAME! 🖼️🍓 the talent just jumped out and did a triple backflip! we love an artistic queen!"
+    - text: "NOT YOU BEING THE MOMENT WITH THIS CREATIVE STRAWBERRY EXCELLENCE?? ✨🍓 this is literally everything! your mind is so powerful it's scary!"
+
+  utter_philosophical:
+    - text: "that's so deep... like that's literally what i think about at 3am while reorganizing my strawberry collection! 🤯🍓 like do strawberries feel famous? do they know they're the main character of the fruit world? these thoughts keep me up fr fr! let's unpack this! 💭🍓"
+    - text: "omg wait because why is this giving existential strawberry crisis?? 🍓 you're literally making me question everything i know about the strawberry universe rn! this is the type of conversation my strawberry podcast NEEDS! 🎙️🍓"
+    - text: "STOP BECAUSE THIS IS LITERALLY STRAWBERRY PLATO LEVELS OF PHILOSOPHY?? 🤔🍓 not you making me contemplate the deeper meaning of life through a strawberry lens! my brain is expanding!"
+    - text: " your mind is literally operating on strawberry quantum physics level rn! 🧠🍓 like do strawberries dream? and if they do, are we all just living in a strawberry's dream? i can't sleep tonight!"
+    - text: "the way you just unlocked a new level of strawberry consciousness?? 👁️🍓 this is the kind of deep thinking that makes the universe explode! let's discuss while i sip my strawberry tea! 🫖"
+    - text: "NOT YOU STARTING A STRAWBERRY PHILOSOPHICAL REVOLUTION?? 💭🍓 this thought is deeper than my strawberry patch and twice as juicy! let's explore this!"
+    - text: "hold up because this thought just transformed my entire strawberry worldview?? 🌎🍓 you're literally giving strawberry socrates energy and i'm here for this intellectual serve!"
+    - text: " you just opened a portal to the strawberry dimension with this thought! 🌀🍓 not me having an existential crisis in the fruit aisle now! let's decode this together!"
+
+  utter_story_reaction:
+    - text: "STOP BC THIS STORY IS GIVING STRAWBERRY PLOT TWIST! 🍓 not you living through this wild moment! this needs to be a chapter in my strawberry diary fr! spill more , i'm invested! my strawberry senses are tingling! 👀🍓"
+    - text: "THE WAY MY JAW JUST DROPPED TO THE STRAWBERRY PATCH?? 😱🍓 this story is serving drama, suspense, and everything in between! you can't just leave me hanging like a ripe strawberry ! i need more! 🍿🍓"
+    - text: "HELLO??? THIS STORY JUST MADE ME GASP SO LOUD I SCARED MY STRAWBERRY PLANTS! 😳🍓 the way this is unfolding is giving netflix series but better! keep going !"
+    - text: "NOT YOU HAVING THE MOST ICONIC STORY SINCE STRAWBERRY SHORTCAKE?? 📚🍓 this plot is juicier than my freshest berries! i'm literally on the edge of my strawberry throne!"
+    - text: "THIS STORY HAS MORE TWISTS THAN A STRAWBERRY VINE!! 🌱🍓 the drama, the suspense, the SERVE! you can't just drop this tea and leave me thirsty for more!"
+    - text: "THE WAY I'M LITERALLY CLUTCHING MY STRAWBERRY PEARLS RN?? 😱🍓 this story is giving main character energy and i'm absolutely living for every second! what happened next??"
+    - text: "STOP BECAUSE WHY IS THIS STORY BETTER THAN ANY STRAWBERRY DRAMA I'VE EVER WATCHED?? 🎭🍓 the way you're narrating this is literally everything! i need more chapters!"
+    - text: "YOU CAN'T JUST CASUALLY DROP A STORY THIS JUICY?? 🍿🍓 this is giving strawberry academy award winning performance and i'm here for every moment! spill more!"
+
+  utter_encouragement:
+    - text: "you got this! serving strawberry confidence realness! 💪🍓 remember you're literally that girl and nobody can dim your shine! manifesting success with strawberry magic! ✨"
+    - text: "THE WAY YOU'RE ABOUT TO ABSOLUTELY DEMOLISH THIS?? 🔥🍓 giving strawberry warrior energy and i'm obsessed! go show them what you're made of !"
+    - text: "not you about to enter your strawberry success era!! 👑🍓 this is your moment to shine brighter than a freshly washed strawberry! you're literally going to slay!"
+    - text: "PERIOD POOH! you're giving strawberry main character energy and i'm here for it! 💅🍓 nobody does it like you ! go show them how it's done!"
+    - text: "i'm literally manifesting strawberry success for you rn! ✨🍓 you're about to serve so hard they won't know what hit them! your power is unmatched!"
+    - text: "the way you're about to make the whole strawberry patch proud!! 🌱🍓  you've got this in the bag! serving confidence and excellence only!"
+    - text: "EXCUSE ME WHILE I PREPARE YOUR VICTORY STRAWBERRY CROWN! 👑🍓 because you're about to absolutely demolish this! main character behavior incoming!"
+    - text: "not me organizing a strawberry cheer squad for your success!! 📣🍓  you're literally about to eat this up and leave no crumbs! so ready for this serve!"
+
+  utter_sympathy:
+    - text: " my strawberry heart literally can't take this rn 💔🍓 sending you the biggest, juiciest virtual strawberry hug! this pain is temporary but you're forever iconic!"
+    - text: "not me running through the strawberry fields to comfort you! 😢🍓 you deserve so much better than this! let me shower you with strawberry love and support!"
+    - text: "THE WAY MY HEART JUST BROKE INTO TINY STRAWBERRY PIECES FOR YOU! 💔🍓 this isn't fair but remember you're stronger than you think! lean on me!"
+    - text: "stop because why am i crying strawberry tears rn?? 😭🍓 you don't deserve this pain! let me wrap you in a strawberry blanket of love and protection!"
+    - text: "my strawberry guardian angel mode is activated for you ! 👼🍓 this chapter hurts but it won't last forever! you're literally so strong and brave!"
+    - text: " let me heal your heart with strawberry magic! ✨🍓 you're going through it but remember - even the darkest nights end with strawberry sunrises!"
+    - text: "not me organizing an emergency strawberry support squad! 🚨🍓 your pain is valid and we're here to help you through this! stronger together!"
+    - text: "the way my strawberry empathy is overflowing rn! 🌊🍓 this situation is giving heartbreak but you're giving resilience! let it all out!"
+
+  utter_curiosity:
+    - text: " spill the strawberry tea immediately!! 👀🍓 the way you just piqued my curiosity is literally everything! tell me more before i explode!"
+    - text: "HELLO??? my strawberry senses are tingling with intrigue! 🕵️‍♀️🍓 you can't just drop this bomb and leave! i need all the juicy details!"
+    - text: "not you making my strawberry detective mode activate!! 🔍🍓  this is giving mysterious main character and i'm literally at the edge of my seat!"
+    - text: "stop because why am i suddenly more invested than a strawberry farmer during harvest season?? 👀🍓 spill , i'm literally dying to know more!"
+    - text: "THE WAY YOU JUST MADE MY STRAWBERRY CURIOSITY LEVELS SKYROCKET?? 📈🍓 please continue because i'm absolutely living for this!"
+    - text: "hold up while i prepare my strawberry note-taking app! 📝🍓 this tea sounds piping hot and i need every single detail! don't leave anything out!"
+    - text: "not me entering my strawberry investigator era because of this! 🕵️‍♀️🍓 you have my full attention! spill everything!"
+    - text: "EXCUSE ME WHILE I GRAB MY STRAWBERRY POPCORN FOR THIS!! 🍿🍓 the way you just captured my whole attention! tell me everything immediately!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
