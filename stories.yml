@@ -1,0 +1,87 @@
+version: "3.1"
+
+stories:
+  - story: happy mood path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_how_are_you
+      - intent: mood_great
+      - action: action_emotional_response
+      - action: action_contextual_strawberry_thought
+
+  - story: sad mood path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_how_are_you
+      - intent: mood_sad
+      - action: utter_emotional_support
+      - action: action_emotional_response
+      - action: action_contextual_strawberry_thought
+
+  - story: emotional support path
+    steps:
+      - intent: emotional_support
+      - action: utter_emotional_support
+      - action: action_emotional_response
+      - action: action_contextual_strawberry_thought
+      - intent: mood_great
+      - action: action_emotional_response
+
+  - story: celebration path
+    steps:
+      - intent: celebration
+      - action: utter_celebration
+      - action: action_emotional_response
+      - action: action_contextual_strawberry_thought
+
+  - story: advice seeking path
+    steps:
+      - intent: seeking_advice
+      - action: utter_advice
+      - action: action_contextual_strawberry_thought
+      - action: action_emotional_response
+
+  - story: achievement sharing path
+    steps:
+      - intent: share_achievement
+      - action: utter_achievement_praise
+      - action: action_emotional_response
+      - action: action_contextual_strawberry_thought
+
+  - story: random thoughts path
+    steps:
+      - intent: random_thoughts
+      - action: utter_philosophical
+      - action: action_contextual_strawberry_thought
+
+  - story: life updates path
+    steps:
+      - intent: life_updates
+      - action: utter_story_reaction
+      - action: action_emotional_response
+      - action: utter_curiosity
+
+  - story: goodbye path
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: me too positive path
+    steps:
+      - intent: affirm_positive # "me too" after something positive
+      - action: utter_share_excitement
+      - action: action_contextual_strawberry_thought
+
+  - story: me too negative path
+    steps:
+      - intent: affirm_negative # "me too" after something negative
+      - action: utter_emotional_support
+      - action: action_contextual_strawberry_thought
+
+  - story: confusion path
+    steps:
+      - intent: express_confusion
+      - action: utter_playful_explanation
+      - action: action_contextual_strawberry_thought
